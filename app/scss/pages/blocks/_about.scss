@@ -1,0 +1,61 @@
+.about {
+	min-height: 844px;
+	background: url('../images/about-bg.png') no-repeat center/cover;
+
+	.about-content {
+		padding-top: 207px;
+
+		.row-2 {
+			margin-top: 35px;
+
+			display: flex;
+			justify-content: space-between;
+
+			&-left {
+				display: flex;
+
+				div:first-child {
+					margin-right: 40px;
+				}
+			}
+
+			.about-play {
+				// margin: 50px 100px 50px 0;
+				position: relative;
+				align-self: flex-end;
+
+				img {
+					position: absolute;
+					top: -65px;
+					left: -70px;
+				}
+			}
+		}
+
+		.row-3 {
+			margin-top: 100px;
+
+			ul {
+
+				li {
+					display: inline-block;
+
+					&:not(:last-child) {
+						margin-right: 40px;
+					}
+
+					span {
+						display: block;
+						margin-bottom: 20px;
+
+						font-family: 'Playfair Display', sans-serif;
+						font-weight: 700;
+						font-size: 45px;
+						line-height: 40px;
+						color: #FF7474;
+					}
+				}
+			}
+		}
+	}
+}
