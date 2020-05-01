@@ -1,0 +1,170 @@
+.header {
+	position: relative;
+
+	min-height: 1000px;
+	background: url('../images/header-bg.png') no-repeat center/cover;
+	
+	color: #FFFFFF;
+
+	padding-top: 50px;
+
+	.header-head {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+
+		.nav {
+
+			ul {
+
+				li {
+					display: inline-block;
+
+					&:not(:last-child) {
+						margin-right: 25px;
+					}
+
+					a {
+						font-weight: 500;
+						font-size: 17px;
+						line-height: 21px;
+						letter-spacing: 0.01em;
+						color: #FFFFFF;
+					}
+				}
+			}
+		}
+
+		.languages {
+
+			span {
+				font-size: 17px;
+				line-height: 21px;
+				letter-spacing: 0.01em;
+				
+				cursor: pointer;
+			}
+			
+			.rus {
+				margin-right: 25px;
+			}
+
+			.en {
+				opacity: .5
+			}
+		}
+	}
+
+	.header-hero {
+		margin-top: 157px;
+
+		display: flex;
+		flex-direction: column;
+		align-items: flex-start;
+
+		.header-title {
+			max-width: 771px;
+			
+			font-family: 'Playfair Display', sans-serif;
+			font-weight: 700;
+			font-size: 80px;
+			line-height: 107px;
+		}
+
+		.header-pretitle {
+			margin: 45px 0 60px;
+
+			font-weight: 500;
+			font-size: 19px;
+			line-height: 23px;
+			letter-spacing: 0.01em;
+		}
+
+		.header-btn {
+			padding: 25px 81px;
+
+			font-weight: 500;
+			font-size: 19px;
+			line-height: 23px;
+			letter-spacing: 0.01em;
+			color: #fff;
+
+			background-color: #FF7474;
+		}
+
+		.dropdown-arrow {
+			margin-top: 110px;
+		}
+	}
+
+	.header-videos {
+		position: absolute;
+		right: 150px;
+		bottom: -45px;
+
+		.test {
+			max-width: 440px;
+			overflow: hidden;
+		}
+
+		.video {
+			position: relative;
+			
+			width: 440px;
+			height: 271px;
+
+			cursor: pointer;
+
+			&:hover {
+				background: none;
+
+				video {
+					display: block;
+				}
+			}
+
+			video {
+				width: 440px;
+				height: 271px;
+				display: none;
+			}
+
+			.video-describe {
+				position: absolute;
+
+				height: 100%;
+
+				padding: 0 0 33px 35px;
+
+				display: flex;
+				align-items: flex-end;
+
+				img {
+					margin-right: 15px;
+				}
+
+				.video-title {
+					font-weight: 500;
+					font-size: 22px;
+					line-height: 27px;
+					letter-spacing: 0.01em;
+				}
+
+				.video-text {
+					font-size: 15px;
+					line-height: 18px;
+					letter-spacing: 0.01em;
+				}
+			}		
+		}
+
+		.video-rocks {
+			background: url('../images/img-video-1.png') no-repeat;
+		}
+
+		.video-lights {
+			margin-top: 25px;
+			background: url('../images/img-video-2.png') no-repeat;
+		}
+	}
+}

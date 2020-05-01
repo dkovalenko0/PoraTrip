@@ -4,9 +4,95 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
      <link rel="stylesheet" href="assets/css/styles.min.css?cb=123" />
-    <title>Starter</title>
+     <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Playfair+Display:wght@400;700&display=swap"
+      rel="stylesheet"
+     />
+    <title>PoraTrip</title>
   </head>
   <body>
+
+    <header class="header">
+      <div class="container">
+        <div class="header-head">
+          <a href="#" class="logo">
+            <img src="assets/images/logo.png" alt="logo">
+          </a>
+
+          <nav class="nav">
+            <ul>
+              <li>
+                <a href="#">Наши туры</a>
+              </li>
+
+              <li>
+                <a href="#">Отзывы</a>
+              </li>
+
+              <li>
+                <a href="#">Истории путешествий</a>
+              </li>
+
+              <li>
+                <a href="#">Контакты</a>
+              </li>
+            </ul>
+          </nav>
+
+          <div class="languages">
+            <span class="rus">RUS</span>
+            <span class="en">EN</span>
+          </div>
+        </div>
+
+        <div class="header-hero">
+          <h1 class="header-title">
+            Пора вырваться из душного мегаполиса. 
+          </h1>
+          <div class="header-pretitle">
+            Отдых по всему миру, который вы заслужили
+          </div>
+          <a href="#" class="header-btn">Подробнее</a>
+          <a href="#" class="dropdown-arrow">
+            <img src="assets/images/icon-scrolldown.svg" alt="scrolldown">
+          </a>
+        </div>
+
+        <div class="header-videos">
+          <div class="test">
+            <div class="video video-rocks">
+              <div class="video-describe">
+                <img src="assets/images/icon-playvideo.svg" alt="playvideo">
+                <div class="video-text">
+                  <div class="video-title">20км от Геленджика</div>
+                  <div class="video-pretitle">Чудесное скопление скал</div>
+                </div>
+              </div>
+              
+              <video loop >
+                <source src="assets/images/rocks.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+              </video>
+            </div>
+          </div>
+        
+          <div class="video video-lights">
+            <div class="video-describe">
+              <img src="assets/images/icon-playvideo.svg" alt="playvideo">
+              <div class="video-text">
+                <div class="video-title">Северное сияние</div>
+                <div class="video-pretitle">2 недели в Финляндии</div>
+              </div>
+            </div>
+            <video loop>
+              <source src="assets/images/lights.mp4" type="video/mp4">
+              Your browser does not support the video tag.
+            </video>
+          </div>
+
+        </div>
+      </div>
+    </header>
    <!-- Scripts -->
     <script async defer src="assets/js/vendors.min.js?cb=123"></script>
     <script async defer src="assets/js/app.min.js?cb=123"></script>
