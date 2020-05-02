@@ -1,0 +1,80 @@
+.request {
+	margin-top: 182px;
+
+	.request-content {
+		position: relative;
+		display: flex;
+		justify-content: flex-end;
+
+		.lake-img {
+			position: absolute;
+			left: 0;
+			top: 93px;
+
+			padding: 60px 65px 60px 0;
+			width: 940px;
+			height: 569px;
+			background: url('../images/request-1.png') no-repeat center/cover;
+			
+			.trip-date{
+				text-align: right;
+			}
+
+			.trip-descr {
+				display: flex;
+				flex-direction: column;
+				justify-content: flex-end;
+
+				height: 100%;
+				text-align: right;
+			}
+
+			.trip-name {
+			font-family: 'Playfair Display', sans-serif;
+			font-weight: 700;
+			font-size: 26px;
+			line-height: 35px;
+			color: #fff;
+			}
+
+			.trip-postname {
+				margin-top: 14px;
+			}
+		}
+
+		form {
+			padding-left: 335px;
+
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			align-items: flex-start;
+
+			width: 1090px;
+			height: 755px;
+			background-color: #F9FAFB;
+
+			.form-text {
+				margin-top: 26px;
+			}
+
+			input {
+				margin: 40px 0 25px;
+				padding: 21px 43px;
+				outline: none;
+				border: 1px solid #808080;
+
+				font-weight: 500;
+				font-size: 19px;
+				line-height: 32px;
+
+				letter-spacing: 0.1em;
+
+				color: #000000;
+				background-color: transparent;
+
+				opacity: 0.5;
+			}
+		}
+	}
+}

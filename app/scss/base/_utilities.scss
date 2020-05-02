@@ -18,6 +18,25 @@
 	color: #000000;
 }
 
+.text-sm {
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 20px;
+	color: #fff;
+}
+
+.btn-red {
+	padding: 25px 81px;
+
+	font-weight: 500;
+	font-size: 19px;
+	line-height: 23px;
+	letter-spacing: 0.01em;
+	color: #fff;
+
+	background-color: #FF7474;
+}
+
 .w-161 {
 	max-width: 161px;
 }
@@ -28,6 +47,14 @@
 
 .w-342 {
 	max-width: 342px;
+}
+
+.w-363 {
+	max-width: 363px;
+}
+
+.w-415 {
+	max-width: 415px;
 }
 
 .w-513 {
