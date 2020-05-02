@@ -18,6 +18,14 @@
 	color: #000000;
 }
 
+.active {
+	opacity: 1;
+}
+
+.disable {
+	opacity: .5;
+}
+
 .text-sm {
 	font-weight: 500;
 	font-size: 16px;
