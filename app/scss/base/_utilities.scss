@@ -1,70 +1,103 @@
 .container {
-	max-width: 1620px;
-	margin: 0 auto;
+  max-width: 1620px;
+  margin: 0 auto;
+
+  @media (max-width: 1665px) {
+    max-width: 1440px;
+  }
+
+  @media (max-width: 1440px) {
+    max-width: 1024px;
+  }
+
+  @media (max-width: 1024px) {
+    max-width: 968px;
+  }
+
+  @media (max-width: 968px) {
+    max-width: 768px;
+  }
 }
 
 .block-title {
-	font-family: 'Playfair Display', sans-serif;
-	font-weight: 700;
-	font-size: 50px;
-	line-height: 67px;
-	color: #333333;
+  font-family: "Playfair Display", sans-serif;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 67px;
+  color: #333333;
+
+  @media (max-width: 488px) {
+    font-size: 30px;
+  }
 }
 
 .block-text {
-	font-weight: 500;
-	font-size: 19px;
-	line-height: 40px;
-	color: #000000;
+  font-weight: 500;
+  font-size: 19px;
+  line-height: 40px;
+  color: #000000;
+
+  @media (max-width: 488px) {
+    font-size: 14px;
+  }
 }
 
 .active {
-	opacity: 1;
+  opacity: 1;
 }
 
 .disable {
-	opacity: .5;
+  opacity: 0.5;
 }
 
 .text-sm {
-	font-weight: 500;
-	font-size: 16px;
-	line-height: 20px;
-	color: #fff;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  color: #fff;
 }
 
 .btn-red {
-	padding: 25px 81px;
+  padding: 25px 81px;
 
-	font-weight: 500;
-	font-size: 19px;
-	line-height: 23px;
-	letter-spacing: 0.01em;
-	color: #fff;
+  font-weight: 500;
+  font-size: 19px;
+  line-height: 23px;
+  letter-spacing: 0.01em;
+  color: #fff;
 
-	background-color: #FF7474;
+  background-color: #ff7474;
+
+  @media (max-width: 488px) {
+    padding: 18px 24px;
+    font-size: 16px;
+  }
 }
 
 .w-161 {
-	max-width: 161px;
+  max-width: 161px;
 }
 
 .w-235 {
-	max-width: 235px;
+  max-width: 235px;
 }
 
 .w-342 {
-	max-width: 342px;
+  max-width: 342px;
+
+  @media (max-width: 488px) {
+    max-width: 200px;
+  }
 }
 
 .w-363 {
-	max-width: 363px;
+  max-width: 363px;
 }
 
 .w-415 {
-	max-width: 415px;
+  max-width: 415px;
 }
 
 .w-513 {
-	max-width: 513px;
+  max-width: 513px;
 }

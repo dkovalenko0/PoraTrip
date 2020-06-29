@@ -1,77 +1,111 @@
 .gallery {
-	margin-top: 150px;
+  margin-top: 150px;
 
-	position: relative;
+  position: relative;
 
-	.gallery-head {
-		position: absolute;
-		top: -250px;
-		right: 0;
-		z-index: 5;
+  @media (max-width: 768px) {
+    margin-top: 100px;
+  }
 
-		width: 940px;
-		height: 577.87px;
+  .gallery-head {
+    position: absolute;
+    top: -250px;
+    right: 0;
+    z-index: 5;
 
-		background-color: #F9FAFB;
+    width: 940px;
+    height: 577.87px;
 
-		display: flex;
-		flex-direction: column;
-		justify-content: center;
-		// align-items: center;
+    background-color: #f9fafb;
 
-		&-content {
-			margin: 0 auto;
-			transform: translate(20%, 0);
-		}
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    // align-items: center;
 
-		.gallery-text {
-			margin: 24px 0 38px;
-		}
+    @media (max-width: 1440px) {
+      position: relative;
+      top: 0;
+      margin-bottom: 25px;
+      width: auto;
+    }
 
-		.gallery-inst {
-			display: flex;
+    &-content {
+      margin: 0 auto;
+      transform: translate(20%, 0);
 
-			max-width: 300px;
+      //   @media (max-width: 411px) {
+      //     margin: 0;
+      //   }
+    }
 
-			font-weight: 500;
-			font-size: 16px;
-			line-height: 21px;
-			color: #CDCDCD;
+    .gallery-text {
+      margin: 24px 0 38px;
+    }
 
-			a {
-				color: #FF7474;
-			}
+    .gallery-inst {
+      display: flex;
 
-			img {
-				margin-right: 15px;
-			}
+      max-width: 300px;
 
-		}
-	}
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 21px;
+      color: #cdcdcd;
 
-	.gallery-content {
+      a {
+        color: #ff7474;
+      }
 
-		display: flex;
+      img {
+        margin-right: 15px;
+      }
 
+      @media (max-width: 488px) {
+        max-width: 200px;
+      }
+    }
+  }
 
-		img {
-			margin-bottom: 38px;
-		}
+  .gallery-content {
+    display: flex;
 
-		.col-1 {
+    @media (max-width: 1700px) {
+      padding: 0 25px;
+      flex-direction: column;
+    }
 
-		}
+    img {
+      margin-bottom: 38px;
 
-		.col-2 {
-			z-index: 7;
+      @media (max-width: 768px) {
+        width: 100%;
+        height: auto;
+      }
+    }
 
-			margin-top: 70px;
-		}
+    .col-1 {
+      z-index: 7;
+    }
 
-		.col-3 {
-			z-index: 7;
+    .col-2 {
+      z-index: 7;
 
-			margin-top: 260px;
-		}
-	}
+      margin-top: 70px;
+
+      @media (max-width: 1700px) {
+        margin-top: 0;
+      }
+    }
+
+    .col-3 {
+      z-index: 7;
+
+      margin-top: 260px;
+
+      @media (max-width: 1700px) {
+        margin-top: 0;
+      }
+    }
+  }
 }
